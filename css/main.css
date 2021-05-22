@@ -1,6 +1,9 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+.barras {
+  display: none;
+}
 .limitador {
     border-radius: 50px;
     position: relative;
