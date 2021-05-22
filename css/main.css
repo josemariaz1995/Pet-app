@@ -1,3 +1,6 @@
+:root{
+    --color-naranja: #ed6436;
+}
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -7,15 +10,41 @@ body {
 .limitador {
     border-radius: 50px;
     position: relative;
+    min-width: 500px;
+    max-width: 630px;
 }
 
 .tarjeta-superior{
     position: absolute;
 }
-section span:first-child{
+.titulo span:first-child{
     font-size: 2.5rem;
+    font-weight: 600;
+    color: #ed6436;
 }
-main{
+.titulo span:nth-child(2){
+    font-weight: 600;
+}
+.contenido-principal{
     margin-bottom: 250px;
     margin-top: 150px;
+}
+.boton{
+    
+    border: 3px solid var(--color-naranja);
+    color: var(--color-naranja);
+    height: 90px;
+    font-size: 30px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: 600;
+}
+.contenido-principal .boton{
+    flex: 0 250px;
+}
+.botonbuy{
+    width: 250px;
+    height: 75px;
+    color: black;
 }
