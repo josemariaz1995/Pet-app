@@ -7,6 +7,9 @@ body {
 .barras {
   display: none;
 }
+a {
+  color: black;
+}
 .limitador {
     border-radius: 50px;
     position: relative;
@@ -75,6 +78,7 @@ body {
   font-size: 18px;
   margin-left: 25px;
 }
+
 @media(max-width:950px){
 .contenido-principal{
     margin: 0 auto;
@@ -122,5 +126,14 @@ body {
 .tarjeta-superior {
     height: 250px;
 }
-
+}
+@media (max-width: 768px) {
+  .escondido {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .barras {
+    display: flex;
+  }
 }
