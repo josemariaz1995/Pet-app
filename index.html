@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header class="contenedor-general container-fluid">
+  <header class="contenedor-general container-fluid position-sticky">
     <div class="contenido-cabecera row px-4 shadow-sm">
       <div class="col">
         <div class="row py-3">
@@ -32,18 +32,27 @@
               </div>
               <div class="col-10">
                 <div class="row align-items-center font-weight-bold justify-content-end">
-                  <ul class="list-unstyled row align-items-center m-0">
-                    <li class="item-list desplegable px-4">
+                  <ul class="list-unstyled row align-items-center m-0 ">
+                    <li class="item-list navegador px-4 escondido">
                       <a class="text-reset text-decoration-none" href="">Home</a>
-                    <li class="item-list desplegable px-4">
-                      <a class="text-reset escondido text-decoration-none" href="">Home</a>
+                    <li class="item-list escondido navegador position-relative px-4">
+                      <a class="text-reset" href="">Live Demo <i class="fas fa-caret-down"></i>
+                      </a>
+                      <ul class="desplegable list-unstyled position-absolute p-4 shadow-sm">
+                        <li class="item-list text-nowrap py-2 m-0"><a class="text-reset" href="">Pets Boarding
+                            Services</a></li>
+                        <li class="item-list text-nowrap py-2 m-0"><a class="text-reset" href="">Pets Toys and Food
+                            Shop</a></li>
+                        <li class="item-list text-nowrap py-2 m-0"><a class="text-reset" href="">Pets Training
+                            School</a></li>
+                      </ul>
                     </li>
-                    <li class="item-list escondido desplegable px-4">
+                    <li class="item-list escondido navegador px-4">
                       <a class="text-reset" href="">Live Demo Blocks <i class="fas fa-caret-down"></i>
                       </a>
                     </li>
                     </li>
-                    <li class="item-list escondido desplegable px-4">
+                    <li class="item-list escondido navegador px-4">
                       <button class="boton botonbuy boton-nav btn">BUY NOW</button>
                     </li>
                     <li class="barras">
@@ -73,22 +82,22 @@
           <button class="boton btn">VIEW ALL</button>
         </span>
       </section>
-      <section class="galeria row">
-        <div class="col d-flex mb-4 justify-content-center limitador mx-4 overflow-hidden tarjeta ">
+      <section class="galeria row d-flex justify-content-around">
+        <div class="col d-flex mb-4 justify-content-center limitador overflow-hidden tarjeta ">
           <img src="img/01.jpg" class="imagen">
           <div class="texto-img col-12 align-items-center d-flex justify-content-center tarjeta-superior">
             <div class="row"><span class="col-12">ACTIVITIES</span> <span class="col-12">Toys play time</span>
             </div>
           </div>
         </div>
-        <div class="col d-flex mb-4 justify-content-center limitador mx-4 overflow-hidden tarjeta ">
+        <div class="col d-flex mb-4 justify-content-center limitador overflow-hidden tarjeta ">
           <img src="img/01.jpg" class="imagen">
           <div class="texto-img col-12 align-items-center d-flex justify-content-center tarjeta-superior">
             <div class="row"><span class="col-12">ACTIVITIES</span> <span class="col-12">Toys play time</span>
             </div>
           </div>
         </div>
-        <div class="col d-flex mb-4 justify-content-center limitador mx-4 overflow-hidden tarjeta ">
+        <div class="col d-flex mb-4 justify-content-center limitador overflow-hidden tarjeta ">
           <img src="img/01.jpg" class="imagen">
           <div class="texto-img col-12 align-items-center d-flex justify-content-center tarjeta-superior">
             <div class=" row"><span class="col-12">ACTIVITIES</span> <span class="col-12">Toys play time</span>
