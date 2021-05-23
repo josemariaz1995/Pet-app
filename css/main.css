@@ -7,6 +7,9 @@ body {
 .barras {
   display: none;
 }
+a {
+  color: black;
+}
 .limitador {
     border-radius: 50px;
     position: relative;
@@ -98,7 +101,7 @@ body {
     font-size: 2rem;
 }
 .contenido-principal .boton{
-    
+
     flex: 0 150px;
     min-width: 150px;
     font-size: 20px;
@@ -109,4 +112,14 @@ body {
    padding: 25px;
 }
 
+}
+@media (max-width: 768px) {
+  .escondido {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .barras {
+    display: flex;
+  }
 }
