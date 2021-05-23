@@ -56,6 +56,13 @@ a {
     height: 75px;
     color: black;
 }
+.tarjeta-superior {
+    position: absolute;
+    background-color: #0000007d;
+    color: white;
+    text-align: center;
+    height: 700px;
+}
 .boton:hover {
   background-color: var(--color-naranja);
   color: #fff;
@@ -73,6 +80,10 @@ a {
 }
 
 @media(max-width:950px){
+.contenido-principal{
+    margin: 0 auto;
+    padding: 25px;
+}
 .imagen {
     width: 800px;
 }
@@ -81,6 +92,12 @@ a {
 }
 .titulo span:nth-child(2){
     font-size: 5rem;
+}
+.tarjeta-superior {
+    height: 500px;
+}
+.texto-img{
+    align-items: flex-end !important;
 }
 }
 @media(max-width:400px){
@@ -101,17 +118,14 @@ a {
     font-size: 2rem;
 }
 .contenido-principal .boton{
-
     flex: 0 150px;
     min-width: 150px;
     font-size: 20px;
     height: 50px;
 }
-.contenido-principal{
-    margin: 0 auto;
-   padding: 25px;
+.tarjeta-superior {
+    height: 250px;
 }
-
 }
 @media (max-width: 768px) {
   .escondido {
