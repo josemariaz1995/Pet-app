@@ -68,6 +68,7 @@ body {
   font-size: 18px;
   margin-left: 25px;
 }
+
 @media(max-width:950px){
 .imagen {
     width: 800px;
@@ -107,4 +108,5 @@ body {
     margin: 0 auto;
    padding: 25px;
 }
+
 }
