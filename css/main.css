@@ -63,4 +63,13 @@ body {
   font-size: 18px;
   margin-left: 25px;
 }
-
+@media (max-width: 768px) {
+  .barras {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .desplegable {
+    display: none;
+  }
+}
