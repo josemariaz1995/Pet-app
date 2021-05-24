@@ -67,9 +67,12 @@ a {
 .tarjeta-superior {
     position: absolute;
     background-color: #0000007d;
-    color: white;
+    color: transparent;
     text-align: center;
     height: 700px;
+    background-color: transparent;
+    font-size: 35px;
+    font-weight: bold;
 }
 .boton:hover {
   background-color: var(--color-naranja);
@@ -149,6 +152,11 @@ a {
 .tarjeta-superior {
     height: 400px;
 }
+}.tarjeta-superior:hover {
+  background-color: rgba(20, 19, 19, 0.2);
+  color: white;
 }
+
+
 
 
