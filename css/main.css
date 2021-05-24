@@ -106,12 +106,7 @@ a {
 .contenido-principal{
     margin: 0 auto;
     padding: 25px;
-}
-.imagen {
-    width: 800px;
-}
-.limitador {
-    height: 500px;
+    justify-content: center !important;
 }
 .titulo span:nth-child(2){
     font-size: 5rem;
@@ -144,21 +139,16 @@ a {
     height: 50px;
 }
 .imagen {
-    width: 400px;
+    width: 600px;
 }
 .limitador {
-    height: 250px;
-    min-width: 250px;
-    max-width: 250px;
+    height: 400px;
+    min-width: 400px;
+    max-width: 400px;
 }
 .tarjeta-superior {
-    height: 250px;
+    height: 400px;
 }
 }
-@media(max-width:400px){
 
-
-
-
-}
 
