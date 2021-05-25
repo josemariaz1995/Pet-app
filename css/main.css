@@ -104,6 +104,13 @@ a {
   font-size: 18px;
   margin-left: 25px;
 }
+.texto-img > div > span:first-child{
+    font-size: 25px;
+    font-weight: 100;
+}
+.texto-img > div > span:nth-child(2){
+    font-size: 40px;
+}
 
 @media(max-width:950px){
 .contenido-principal{
@@ -119,6 +126,12 @@ a {
 }
 .texto-img{
     align-items: flex-end !important;
+}
+.texto-img > div > span:first-child{
+    font-size: 15px;
+}
+.texto-img > div > span:nth-child(2){
+    font-size: 25px;
 }
  .escondido {
     display: none;
@@ -156,7 +169,19 @@ a {
   background-color: rgba(20, 19, 19, 0.2);
   color: white;
 }
-
+@media(max-width: 400px){
+    .imagen{
+        width: 530px;
+    }
+    .limitador{
+        max-width: 330px;
+        min-width: 330px;
+        height: 330px;
+    }
+    .tarjeta-superior {
+    height: 330px;
+}
+}
 
 
 
