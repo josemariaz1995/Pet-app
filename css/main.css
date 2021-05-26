@@ -18,14 +18,14 @@ a {
 .limitador {
     border-radius: 50px;
     position: relative;
-    min-width: 500px;
-    max-width: 500px;
-    height: 700px;
+    min-width: 350px;
+    max-width: 350px;
+    height: 500px;
 }
 .imagen {
     position: absolute;
     top: 2px;
-    width: 1070px;
+    width: 750px;
 }
 
 .tarjeta-superior{
@@ -111,13 +111,18 @@ a {
 .texto-img > div > span:nth-child(2){
     font-size: 40px;
 }
-
-@media(max-width:950px){
-.contenido-principal{
-    margin: 0 auto;
-    padding: 25px;
-    justify-content: center !important;
+@media(max-width:1050px){
+     .escondido {
+    display: none;
 }
+    .barras {
+    display: flex;
+  }
+  
+
+}
+@media(max-width:950px){
+
 .titulo span:nth-child(2){
     font-size: 5rem;
 }
@@ -133,12 +138,8 @@ a {
 .texto-img > div > span:nth-child(2){
     font-size: 25px;
 }
- .escondido {
-    display: none;
-  }
-.barras {
-    display: flex;
-  }
+
+
   .titulo h2:first-child{
     font-size: 1rem;
 }
