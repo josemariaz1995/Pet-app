@@ -122,7 +122,9 @@ a {
 
 }
 @media(max-width:950px){
-
+.galeria{
+    justify-content: center !important;
+}
 .titulo span:nth-child(2){
     font-size: 5rem;
 }
